@@ -8,9 +8,21 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController
+{
 
-    override func viewDidLoad() {
+
+    @IBOutlet weak var MyNameIsLabel: UILabel!
+    @IBOutlet weak var MyMajorIsLabel: UILabel!
+    
+    
+    override func viewDidLoad()
+    {
+        self.MyNameIsLabel.text = "My Name is: "
+        self.MyMajorIsLabel.text = "My Major is: "
+        
+        
+        
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
