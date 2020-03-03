@@ -8,7 +8,24 @@
 
 import UIKit
 
-class ThirdViewController: UIViewController {
+class ThirdViewController: UIViewController, UITableViewDataSource, UITableViewDelegate
+{
+    
+    var MyBucketList = ["Hike in Colorado", "Buy a house", "Own a parrot", "Learn to cross stitch","Finish a 500 piece puzzle alone" ]
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
+    {
+        return MyBucketList.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
+    {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cellReuseIdentifier")!
+        let text = MyBucketList[indexPath.row]
+        cell.textLabel?.text = text
+        return cell
+    }
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
