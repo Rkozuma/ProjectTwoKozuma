@@ -8,9 +8,18 @@
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class SecondViewController: UIViewController
+{
+    
+    @IBOutlet weak var TextFeild: UITextField!
+    @IBOutlet weak var DisplayLabel: UILabel!
+    
 
-    override func viewDidLoad() {
+    override func viewDidLoad()
+    {
+        self.DisplayLabel.text = ""
+        
+        
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
@@ -18,13 +27,29 @@ class SecondViewController: UIViewController {
     
 
     /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
+     (32°F − 32) × 5/9 = 0°C
+     c = 5/9 * (f - 32)
+     c = 5/9 * (TextFeild - 32)
+     DisplayLabel = c
     */
+    
+    
+    
+    
+    
+    
+    
+    @IBAction func ConversionAction(_ sender: Any)
+    {
+        
+        
+        
+    }
+    
+    
+    
+    
+    
+    
 
 }
