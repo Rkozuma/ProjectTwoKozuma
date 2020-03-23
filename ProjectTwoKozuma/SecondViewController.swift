@@ -18,6 +18,7 @@ class SecondViewController: UIViewController
 
     override func viewDidLoad()
     {
+        navigationItem.title = "Weather Convert"
         self.DisplayLabel.text = ""
         
         
@@ -38,8 +39,6 @@ class SecondViewController: UIViewController
     
     
     // var c = 5/9 * (f - 32)
-    
-    
     
     
     @IBAction func ConversionAction(_ sender: Any)

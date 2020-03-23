@@ -25,6 +25,8 @@ class ViewController: UIViewController
     
     override func viewDidLoad()
     {
+        navigationItem.title = "About Me"
+        
         self.MyNameIsLabel.text = "My Name is: "
         self.MyMajorIsLabel.text = "My Major is: "
         self.MyName.text = "Rachelle Kozuma"
