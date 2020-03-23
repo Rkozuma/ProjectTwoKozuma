@@ -27,17 +27,16 @@ class SecondViewController: UIViewController
     
 
     /*
+     
      (32°F − 32) × 5/9 = 0°C
      c = 5/9 * (f - 32)
      c = 5/9 * (TextFeild - 32)
      DisplayLabel = c
+     
     */
     
     
-    
-    
-    
-    
+    // var c = 5/9 * (f - 32)
     
     @IBAction func ConversionAction(_ sender: Any)
     {

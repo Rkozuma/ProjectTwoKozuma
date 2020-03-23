@@ -12,6 +12,9 @@ class ViewController: UIViewController
 {
 
 
+   
+    @IBOutlet weak var SelfiePic: UIImageView!
+    @IBOutlet weak var UHWOLogo: UIImageView!
     @IBOutlet weak var MyNameIsLabel: UILabel!
     @IBOutlet weak var MyMajorIsLabel: UILabel!
     @IBOutlet weak var MyName: UILabel!
@@ -28,6 +31,8 @@ class ViewController: UIViewController
         self.Mymajor.text = "AS in Creative Media"
         self.MyGoalLabel.text = "About me..."
         self.MyGoal.text = "Starting graphic design in high school, I was introduced into adobe applications at a prime age and since then, been slowly building my skill. In high school we focused on creating merchandice like shirts and hats. Now, in college I create posters and informationals. I hope to go into interactive design. I like designing neat interface displays, and now I want to lean the coding aspects of it all."
+        SelfiePic.image = UIImage(named: "Selfie")
+        UHWOLogo.image = UIImage(named: "UHWO")
         
         
         super.viewDidLoad()
