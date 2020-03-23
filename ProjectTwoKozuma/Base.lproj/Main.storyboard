@@ -194,7 +194,7 @@
         <scene sceneID="bbw-7h-Fel">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Zvl-R5-9hL" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="About Me " id="UkX-ht-eQz"/>
+                    <tabBarItem key="tabBarItem" title="About Me " image="aboutMe" selectedImage="aboutMe" id="UkX-ht-eQz"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ANm-i1-eh2">
                         <rect key="frame" x="0.0" y="44" width="375" height="44"/>
@@ -213,7 +213,7 @@
         <scene sceneID="ZhM-oO-yHf">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="hjN-SG-Iq9" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Convert" id="ZmE-3N-wFP"/>
+                    <tabBarItem key="tabBarItem" title="Convert" image="weather" selectedImage="weather" id="ZmE-3N-wFP"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="8Tc-e7-2Qy">
                         <rect key="frame" x="0.0" y="44" width="375" height="44"/>
@@ -232,7 +232,7 @@
         <scene sceneID="ejS-KW-YqB">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="YfA-az-dwj" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="My Bucket List" id="eSI-sU-Jxa"/>
+                    <tabBarItem key="tabBarItem" title="My Bucket List" image="bucketList" selectedImage="bucketList" id="eSI-sU-Jxa"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="y32-8k-I8l">
                         <rect key="frame" x="0.0" y="44" width="375" height="44"/>
@@ -248,4 +248,9 @@
             <point key="canvasLocation" x="197.59999999999999" y="579.76011994002999"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="aboutMe" width="25" height="25"/>
+        <image name="bucketList" width="25" height="25"/>
+        <image name="weather" width="25" height="25"/>
+    </resources>
 </document>
