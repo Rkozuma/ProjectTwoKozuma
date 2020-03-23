@@ -11,7 +11,8 @@ import UIKit
 class SecondViewController: UIViewController
 {
     
-    @IBOutlet weak var TextFeild: UITextField!
+
+    @IBOutlet weak var TempInput: UITextField!
     @IBOutlet weak var DisplayLabel: UILabel!
     
 
@@ -38,10 +39,17 @@ class SecondViewController: UIViewController
     
     // var c = 5/9 * (f - 32)
     
+    
+    
+    
     @IBAction func ConversionAction(_ sender: Any)
     {
+        let f: Int? = Int(TempInput.text!)
+        
+        let c = 5/9 * (f! - 31)
         
         
+        self.DisplayLabel.text = "The temp is \(c) degrees celsius."
         
     }
     
